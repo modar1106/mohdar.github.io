@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2DhKNF+QH3RjKzTj7uK4vxO6zLvQ9RXxwL4Kn+K5f5mR1+jpFcFQ0k1tO1xvPBu0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <button class="contact-btn">Contact</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>I’m <span class="highlight"></span></h1>
+    <h2>Full Stack Developer</h2>
+    <button class="btn">My Projects</button>
+    <a href="cv.pdf" download class="btn" style="margin-left: 10px;">Download CV</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>WHO AM I?</h2>
+    <p>
+      I am an Informatics Engineering student at Universitas Serang Raya with a strong passion for mobile development. I have experience developing Android applications, including a project called SmartFarm that helps farmers monitor crops and weather. In addition to my technical skills, I was honored to serve as a Campus Ambassador, which helped me improve my communication and leadership abilities.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>MY SKILLS</h2>
+    <div class="skills-grid">
+      <div class="skill-item"><i class="fas fa-pen-nib"></i> Adobe Illustrator</div>
+      <div class="skill-item"><i class="fas fa-palette"></i> Canva</div>
+      <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
+      <div class="skill-item"><i class="fas fa-mobile-alt"></i> Kotlin</div>
+      <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>PROJECTS</h2>
+    <div class="project-list">
+      <div class="project-card">Project 1</div>
+      <div class="project-card">Project 2</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h2>Let’s Have a Chat</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
